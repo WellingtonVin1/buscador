@@ -39,3 +39,41 @@
     outline: none; /*Essa opçao tira a borda do input quando o usuario esta digitando*/
     margin-right: 8px;
 }
+
+.containerInput input::placeholder {
+  color: #f1f1f1;
+}
+
+.buttonSearch{
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.5s; /*Chamando a animação criada embaixo com transform*/
+}
+
+.buttonSearch:hover{  /*Criando uma animação hover*/
+  transform: scale(1.2); /*Criando a animaçao de aumentar o botao com Transform Scale*/
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  width: 500px;
+  border-radius: 8px; 
+}
+
+.main h2{
+  margin: 16px 0;
+  font-size: 39px;
+}
+
+.main span{
+  margin-bottom: 16px;
+  font-weight: bold;
+}

@@ -17,13 +17,14 @@ function App() {
          </button>
       </div> 
 
-      <main classname="main">
+      <main className="main">
           <h2>CEP : 78088190</h2>
 
           <span>Rua Teste Algum</span>
           <span>Complemento : Algum complemento</span>
           <span>Vila Rosa</span>
           <span>Campo Grande - MS</span>
+
       </main>
 
       
