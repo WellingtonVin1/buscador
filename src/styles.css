@@ -38,8 +38,6 @@
     color: #fff;
     outline: none; /*Essa opçao tira a borda do input quando o usuario esta digitando*/
     margin-right: 8px;
-<<<<<<< HEAD
-=======
 }
 
 .containerInput input::placeholder {
@@ -93,5 +91,4 @@
     width: 80%;
     min-height: 250px;
   }
->>>>>>> d4ea9126a3f7ad6e192577470ab648f370626c02
 }
